@@ -1,0 +1,203 @@
+timestamp,endpoint_type,email,success,status_code,response_time_ms,rejection_method,error_message
+2026-02-22T21:03:26.739112,traditional,user0@gmail.com,FALSE,401,27,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.737115,oauth,user0@gmail.com,FALSE,404,25,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.739112,traditional,user1@yahoo.com,FALSE,401,27,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.738111,oauth,user1@yahoo.com,FALSE,404,26,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.739112,traditional,user2@outlook.com,FALSE,401,27,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.738111,oauth,user2@outlook.com,FALSE,404,26,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.739112,traditional,user3@hotmail.com,FALSE,401,27,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.738111,oauth,user3@hotmail.com,FALSE,404,26,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.740112,traditional,user4@example.com,FALSE,401,28,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.739112,oauth,user4@example.com,FALSE,404,27,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.743111,traditional,user5@gmail.com,FALSE,401,31,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.741114,oauth,user5@gmail.com,FALSE,404,29,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.743111,traditional,user6@yahoo.com,FALSE,401,31,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.741114,oauth,user6@yahoo.com,FALSE,404,29,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.744114,traditional,user7@outlook.com,FALSE,401,32,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.743111,oauth,user7@outlook.com,FALSE,404,31,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.744114,traditional,user8@hotmail.com,FALSE,401,32,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.743111,oauth,user8@hotmail.com,FALSE,404,31,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.744114,traditional,user9@example.com,FALSE,401,32,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.744114,oauth,user9@example.com,FALSE,404,32,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.746111,traditional,user10@gmail.com,FALSE,401,34,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.745113,oauth,user10@gmail.com,FALSE,404,33,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.747115,traditional,user11@yahoo.com,FALSE,401,35,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.747115,oauth,user11@yahoo.com,FALSE,404,35,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.748112,traditional,user12@outlook.com,FALSE,401,35,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.747115,oauth,user12@outlook.com,FALSE,404,34,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.748112,traditional,user13@hotmail.com,FALSE,401,35,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.747115,oauth,user13@hotmail.com,FALSE,404,34,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.748112,traditional,user14@example.com,FALSE,401,35,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.747115,oauth,user14@example.com,FALSE,404,34,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.749112,traditional,user15@gmail.com,FALSE,401,36,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.748112,oauth,user15@gmail.com,FALSE,404,35,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.751124,traditional,user16@yahoo.com,FALSE,401,38.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.750112,oauth,user16@yahoo.com,FALSE,404,37,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.752112,traditional,user17@outlook.com,FALSE,401,38.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.750112,oauth,user17@outlook.com,FALSE,404,37,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.753124,traditional,user18@hotmail.com,FALSE,401,40.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.750112,oauth,user18@hotmail.com,FALSE,404,37,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.754112,traditional,user19@example.com,FALSE,401,41,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.753124,oauth,user19@example.com,FALSE,404,40.01,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.754112,traditional,user20@gmail.com,FALSE,401,41,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.753124,oauth,user20@gmail.com,FALSE,404,40.01,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.755111,traditional,user21@yahoo.com,FALSE,401,42,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.755111,oauth,user21@yahoo.com,FALSE,404,42,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.756112,traditional,user22@outlook.com,FALSE,401,43,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.755111,oauth,user22@outlook.com,FALSE,404,42,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.757112,traditional,user23@hotmail.com,FALSE,401,44,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.756112,oauth,user23@hotmail.com,FALSE,404,43,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.757112,traditional,user24@example.com,FALSE,401,44,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.756112,oauth,user24@example.com,FALSE,404,43,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.758112,traditional,user25@gmail.com,FALSE,401,45,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.757112,oauth,user25@gmail.com,FALSE,404,44,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.760114,traditional,user26@yahoo.com,FALSE,401,47,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.759111,oauth,user26@yahoo.com,FALSE,404,46,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.761114,traditional,user27@outlook.com,FALSE,401,48,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.759111,oauth,user27@outlook.com,FALSE,404,46,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.762111,traditional,user28@hotmail.com,FALSE,401,49,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.761114,oauth,user28@hotmail.com,FALSE,404,48,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.762111,traditional,user29@example.com,FALSE,401,48,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.761114,oauth,user29@example.com,FALSE,404,47,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.763122,traditional,user30@gmail.com,FALSE,401,49.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.763122,oauth,user30@gmail.com,FALSE,404,49.01,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.764110,traditional,user31@yahoo.com,FALSE,401,50,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.763122,oauth,user31@yahoo.com,FALSE,404,49.01,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.765111,traditional,user32@outlook.com,FALSE,401,51,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.765111,oauth,user32@outlook.com,FALSE,404,51,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.766111,traditional,user33@hotmail.com,FALSE,401,52,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.765111,oauth,user33@hotmail.com,FALSE,404,51,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.766111,traditional,user34@example.com,FALSE,401,52,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.765111,oauth,user34@example.com,FALSE,404,51,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.767116,traditional,user35@gmail.com,FALSE,401,53.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.766111,oauth,user35@gmail.com,FALSE,404,52,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.768111,traditional,user36@yahoo.com,FALSE,401,54,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.767116,oauth,user36@yahoo.com,FALSE,404,53.01,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.770113,traditional,user37@outlook.com,FALSE,401,56,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.769111,oauth,user37@outlook.com,FALSE,404,55,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.770113,traditional,user38@hotmail.com,FALSE,401,56,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.769111,oauth,user38@hotmail.com,FALSE,404,55,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.773112,traditional,user39@example.com,FALSE,401,59,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.771112,oauth,user39@example.com,FALSE,404,57,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.772115,traditional,user40@gmail.com,FALSE,401,58.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.771112,oauth,user40@gmail.com,FALSE,404,57,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.772115,traditional,user41@yahoo.com,FALSE,401,58.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.771112,oauth,user41@yahoo.com,FALSE,404,57,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.775112,traditional,user42@outlook.com,FALSE,401,61,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.773112,oauth,user42@outlook.com,FALSE,404,59,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.775112,traditional,user43@hotmail.com,FALSE,401,61,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.776112,oauth,user43@hotmail.com,FALSE,404,61,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.776112,traditional,user44@example.com,FALSE,401,62,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.776112,oauth,user44@example.com,FALSE,404,62,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.777112,traditional,user45@gmail.com,FALSE,401,63,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.776112,oauth,user45@gmail.com,FALSE,404,62,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.778114,traditional,user46@yahoo.com,FALSE,401,64,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.777112,oauth,user46@yahoo.com,FALSE,404,63,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.778114,traditional,user47@outlook.com,FALSE,401,63,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.777112,oauth,user47@outlook.com,FALSE,404,62,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.779114,traditional,user48@hotmail.com,FALSE,401,64,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.779114,oauth,user48@hotmail.com,FALSE,404,64,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.780111,traditional,user49@example.com,FALSE,401,65,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.779114,oauth,user49@example.com,FALSE,404,64,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.780111,traditional,user50@gmail.com,FALSE,401,65,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.779114,oauth,user50@gmail.com,FALSE,404,64,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.782111,traditional,user51@yahoo.com,FALSE,401,67,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.781114,oauth,user51@yahoo.com,FALSE,404,66,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.782111,traditional,user52@outlook.com,FALSE,401,67,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.781114,oauth,user52@outlook.com,FALSE,404,66,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.784115,traditional,user53@hotmail.com,FALSE,401,69.01,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.782111,oauth,user53@hotmail.com,FALSE,404,67,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.785112,traditional,user54@example.com,FALSE,401,70,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.783111,oauth,user54@example.com,FALSE,404,68,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.787112,traditional,user55@gmail.com,FALSE,401,72,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.786111,oauth,user55@gmail.com,FALSE,404,71,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.788111,traditional,user56@yahoo.com,FALSE,401,73,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.787112,oauth,user56@yahoo.com,FALSE,404,72,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.789111,traditional,user57@outlook.com,FALSE,401,74,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.787112,oauth,user57@outlook.com,FALSE,404,72,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.790111,traditional,user58@hotmail.com,FALSE,401,75,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.789111,oauth,user58@hotmail.com,FALSE,404,74,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.791111,traditional,user59@example.com,FALSE,401,76,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.789111,oauth,user59@example.com,FALSE,404,74,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.792111,traditional,user60@gmail.com,FALSE,401,77,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.791111,oauth,user60@gmail.com,FALSE,404,76,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.792111,traditional,user61@yahoo.com,FALSE,401,77,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.791111,oauth,user61@yahoo.com,FALSE,404,76,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.793114,traditional,user62@outlook.com,FALSE,401,78,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.793114,oauth,user62@outlook.com,FALSE,404,78,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.794111,traditional,user63@hotmail.com,FALSE,401,79,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.793114,oauth,user63@hotmail.com,FALSE,404,78,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.794111,traditional,user64@example.com,FALSE,401,78,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.795112,oauth,user64@example.com,FALSE,404,79,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.796115,traditional,user65@gmail.com,FALSE,401,80,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.795112,oauth,user65@gmail.com,FALSE,404,79,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.797112,traditional,user66@yahoo.com,FALSE,401,81,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.795112,oauth,user66@yahoo.com,FALSE,404,79,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.798110,traditional,user67@outlook.com,FALSE,401,82,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.797112,oauth,user67@outlook.com,FALSE,404,81,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.798110,traditional,user68@hotmail.com,FALSE,401,82,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.797112,oauth,user68@hotmail.com,FALSE,404,81,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.800114,traditional,user69@example.com,FALSE,401,84,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.799112,oauth,user69@example.com,FALSE,404,83,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.801112,traditional,user70@gmail.com,FALSE,401,85,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.799112,oauth,user70@gmail.com,FALSE,404,83,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.801112,traditional,user71@yahoo.com,FALSE,401,85,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.801112,oauth,user71@yahoo.com,FALSE,404,85,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.802112,traditional,user72@outlook.com,FALSE,401,86,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.802112,oauth,user72@outlook.com,FALSE,404,86,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.803113,traditional,user73@hotmail.com,FALSE,401,87,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.802112,oauth,user73@hotmail.com,FALSE,404,86,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.804113,traditional,user74@example.com,FALSE,401,86.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.803113,oauth,user74@example.com,FALSE,404,85.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.805113,traditional,user75@gmail.com,FALSE,401,87.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.803113,oauth,user75@gmail.com,FALSE,404,85.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.806118,traditional,user76@yahoo.com,FALSE,401,89,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.805113,oauth,user76@yahoo.com,FALSE,404,87.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.807113,traditional,user77@outlook.com,FALSE,401,89,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.805113,oauth,user77@outlook.com,FALSE,404,87.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.807113,traditional,user78@hotmail.com,FALSE,401,89.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.807113,oauth,user78@hotmail.com,FALSE,404,89.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.808112,traditional,user79@example.com,FALSE,401,90.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.807113,oauth,user79@example.com,FALSE,404,89.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.808112,traditional,user80@gmail.com,FALSE,401,90.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.809113,oauth,user80@gmail.com,FALSE,404,91.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.809113,traditional,user81@yahoo.com,FALSE,401,91.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.809113,oauth,user81@yahoo.com,FALSE,404,91.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.810113,traditional,user82@outlook.com,FALSE,401,92.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.810113,oauth,user82@outlook.com,FALSE,404,92.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.812113,traditional,user83@hotmail.com,FALSE,401,94.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.811113,oauth,user83@hotmail.com,FALSE,404,93.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.812113,traditional,user84@example.com,FALSE,401,94.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.811113,oauth,user84@example.com,FALSE,404,93.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.813113,traditional,user85@gmail.com,FALSE,401,95.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.812113,oauth,user85@gmail.com,FALSE,404,94.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.814113,traditional,user86@yahoo.com,FALSE,401,96.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.812113,oauth,user86@yahoo.com,FALSE,404,94.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.815112,traditional,user87@outlook.com,FALSE,401,97.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.814113,oauth,user87@outlook.com,FALSE,404,96.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.816116,traditional,user88@hotmail.com,FALSE,401,99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.814113,oauth,user88@hotmail.com,FALSE,404,96.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.817114,traditional,user89@example.com,FALSE,401,99.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.817114,oauth,user89@example.com,FALSE,404,99.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.818112,traditional,user90@gmail.com,FALSE,401,100.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.817114,oauth,user90@gmail.com,FALSE,404,99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.818112,traditional,user91@yahoo.com,FALSE,401,100,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.817114,oauth,user91@yahoo.com,FALSE,404,99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.820115,traditional,user92@outlook.com,FALSE,401,102,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.819112,oauth,user92@outlook.com,FALSE,404,101,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.821111,traditional,user93@hotmail.com,FALSE,401,102.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.819112,oauth,user93@hotmail.com,FALSE,404,101,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.822111,traditional,user94@example.com,FALSE,401,103.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.821111,oauth,user94@example.com,FALSE,404,102.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.822111,traditional,user95@gmail.com,FALSE,401,103.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.821111,oauth,user95@gmail.com,FALSE,404,102.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.822111,traditional,user96@yahoo.com,FALSE,401,103.99,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.822111,oauth,user96@yahoo.com,FALSE,404,103.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.823115,traditional,user97@outlook.com,FALSE,401,105,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.822111,oauth,user97@outlook.com,FALSE,404,103.99,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.824112,traditional,user98@hotmail.com,FALSE,401,106,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.824112,oauth,user98@hotmail.com,FALSE,404,106,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.824112,traditional,user99@example.com,FALSE,401,106,401 Unauthorized - Invalid Credentials,Invalid credentials
+2026-02-22T21:03:26.824112,oauth,user99@example.com,FALSE,404,106,404 Not Found - Endpoint Not Accepting Credentials,
+2026-02-22T21:03:26.881113,traditional,testuser@research.com,TRUE,200,163,N/A - Login Successful,
+2026-02-22T21:03:26.824112,oauth,testuser@research.com,FALSE,404,106,404 Not Found - Endpoint Not Accepting Credentials,

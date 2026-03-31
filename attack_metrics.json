@@ -1,0 +1,45 @@
+{
+  "attack_summary": {
+    "total_credentials_tested": 50,
+    "total_requests_sent": 202,
+    "attack_duration_seconds": 0.09
+  },
+  "traditional_login_metrics": {
+    "endpoint": "Traditional Login",
+    "total_requests": 101,
+    "successful_logins": 1,
+    "failed_logins": 100,
+    "success_rate_percentage": 0.99,
+    "avg_response_time_ms": 67.33,
+    "min_response_time_ms": 27.0,
+    "max_response_time_ms": 163.0,
+    "rejection_methods": {
+      "401 Unauthorized - Invalid Credentials": 100,
+      "N/A - Login Successful": 1
+    }
+  },
+  "oauth_login_metrics": {
+    "endpoint": "OAuth 2.0 Login",
+    "total_requests": 101,
+    "successful_logins": 0,
+    "failed_logins": 101,
+    "success_rate_percentage": 0.0,
+    "avg_response_time_ms": 65.8,
+    "min_response_time_ms": 25.0,
+    "max_response_time_ms": 106.0,
+    "rejection_methods": {
+      "404 Not Found - Endpoint Not Accepting Credentials": 101
+    }
+  },
+  "comparative_analysis": {
+    "attack_mitigation_rate": {
+      "traditional": "99.01%",
+      "oauth": "100.00%"
+    },
+    "performance_comparison": {
+      "traditional_avg_ms": 67.33,
+      "oauth_avg_ms": 65.8,
+      "performance_delta_ms": -1.53
+    }
+  }
+}
