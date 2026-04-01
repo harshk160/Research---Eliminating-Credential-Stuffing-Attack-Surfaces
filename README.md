@@ -1,59 +1,147 @@
-# Research---Eliminating-Credential-Stuffing-Attack-Surfaces
-Eliminating Credential Stuffing Attack Surfaces: A Comparative Analysis of OAuth 2.0 and Password-Based Authentication
-
 # OAuth 2.0 vs Traditional Authentication: Credential Stuffing Defense Analysis
 
-## Overview
-This repository contains all code, data, and configuration files for the research paper "Eliminating Credential Stuffing Attack Surfaces: A Comparative Analysis of OAuth 2.0 and Password-Based Authentication."
+A MERN application used for research comparing OAuth 2.0 and password-based authentication security against credential stuffing attacks.
 
-## Citation
-If you use this code or data, please cite:
-Kumar, H. (2026). Eliminating Credential Stuffing Attack Surfaces: A Comparative Analysis of OAuth 2.0 and Password-Based Authentication. [Journal Name], [Volume], [Pages]. DOI: [paper DOI]
+## Research Paper
 
-## Repository Structure
-See above directory tree.
+**Author:** Harsh Kumar ([@Harsh13912](https://github.com/Harsh13912))  
+**Contact:** researchwithharsh@gmail.com
+
+**Citation:** Kumar, H. (2026). Eliminating Credential Stuffing Attack Surfaces: A Comparative Analysis of OAuth 2.0 and Password-Based Authentication.
+
+---
+
+## Repository Location
+
+This project is located at:  
+`https://github.com/harshk160/Research---Eliminating-Credential-Stuffing-Attack-Surfaces/oauth-login-project/`
+
+```
+oauth-login-project/
+├── server/                    # Backend (Node.js + Express)
+├── client/                    # Frontend (React)
+├── attack-simulator/          # Python credential stuffing script
+│   ├── credential_stuffer.py
+│   ├── combolist.csv         # 101 test credentials
+│   └── data/                 # Results output
+└── README.md
+```
+
+---
 
 ## System Requirements
-- Node.js 16+ (tested on v24.11.0)
-- Python 3.8+ (tested on v3.11.0)
-- MongoDB 4.4+ (tested on v8.2.0)
+
+- Node.js 16+
+- Python 3.8+
+- MongoDB 4.4+
 - 8GB RAM minimum
-- Operating System: Windows 11, macOS 12+, or Ubuntu 20.04+
 
-## Installation
+---
 
-### Backend Setup
+## Reproducibility Instructions
+
+### 1. Clone Repository
+
 ```bash
-cd backend
+git clone https://github.com/harshk160/Research---Eliminating-Credential-Stuffing-Attack-Surfaces.git
+cd Research---Eliminating-Credential-Stuffing-Attack-Surfaces/oauth-login-project
+```
+
+### 2. Start MongoDB
+
+```bash
+mongod
+```
+
+### 3. Backend Setup
+
+```bash
+cd server
 npm install
-# Configure MongoDB connection in config/database.js
-# Set up OAuth credentials in config/oauth.js
+cp .env.example .env
+# Edit .env: Set MONGO_URI, JWT_SECRET, SESSION_SECRET
 npm start
 ```
 
-### Attack Simulator Setup
+Backend runs at `http://localhost:5000`
+
+### 4. Frontend Setup (Optional)
+
+```bash
+cd client
+npm install
+echo "VITE_API_URL=http://localhost:5000/api" > .env
+npm run dev
+```
+
+Frontend runs at `http://localhost:5173`
+
+### 5. Run Attack Simulation
+
 ```bash
 cd attack-simulator
 pip install -r requirements.txt
 python credential_stuffer.py
 ```
 
-## Reproduction Instructions
-1. Start MongoDB: `mongod`
-2. Start backend server: `cd backend && npm start`
-3. Run attack simulation: `cd attack-simulator && python credential_stuffer.py`
-4. Results saved to `data/attack_results.csv` and `data/attack_metrics.json`
+**Results saved to:**
+- `data/attack_results.csv` - Per-request logs (202 requests)
+- `data/attack_metrics.json` - Aggregated statistics
+
+---
+
+## Environment Variables
+
+**Minimum required in `server/.env`:**
+
+```env
+MONGO_URI=mongodb://localhost:27017/oauth-research
+JWT_SECRET=your_secret_here
+SESSION_SECRET=your_session_secret_here
+```
+
+---
+
+## Live Deployment
+
+- **Frontend:** [https://oauthloginproject.netlify.app](https://oauthloginproject.netlify.app)
+- **Backend:** [https://my-oauth-server.onrender.com/api/health](https://my-oauth-server.onrender.com/api/health)
+
+---
 
 ## Data Files
-- `attack_results.csv`: Per-request logs (202 requests)
-- `attack_metrics.json`: Aggregated statistics
-- `combolist.csv`: 101 test credentials (100 synthetic + 1 valid)
+
+- **combolist.csv:** 100 synthetic + 1 valid test credential
+- **attack_results.csv:** Detailed per-request logs
+- **attack_metrics.json:** Success rate, response times, error distribution
+
+---
 
 ## Ethical Considerations
-All experiments conducted on localhost with synthetic data. No real user credentials used. See `supplementary/ethical-approval.md` for details.
+
+All experiments conducted on localhost with synthetic data. No real user credentials used.
+
+---
+
+## Troubleshooting
+
+**Backend won't start:**
+- Verify MongoDB is running
+- Check `.env` configuration
+
+**Attack script fails:**
+- Ensure backend is running on port 5000
+- Verify `combolist.csv` exists
+
+**No results generated:**
+- Check write permissions in `data/` directory
+
+---
 
 ## License
-This project is licensed under the MIT License - see LICENSE file for details.
 
-## Contact
-For questions: researchwithharsh@gmail.com
+MIT License - See LICENSE file for details.
+
+---
+
+**⭐ Star this repo if you found it helpful!**
