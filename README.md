@@ -4,6 +4,8 @@ A MERN application used for research comparing OAuth 2.0 and password-based auth
 
 ## Research Paper
 
+Eliminating Credential Stuffing Attack Surfaces: A Comparative Analysis of OAuth 2.0 and Password-Based Authentication
+
 **Author:** Harsh Kumar ([@Harshk160](https://github.com/Harshk160))  
 **Contact:** researchwithharsh@gmail.com
 
