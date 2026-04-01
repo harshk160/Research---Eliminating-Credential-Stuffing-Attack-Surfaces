@@ -16,12 +16,8 @@ This project is located at:
 
 ```
 oauth-login-project/
-├── server/                    # Backend (Node.js + Express)
 ├── client/                    # Frontend (React)
-├── attack-simulator/          # Python credential stuffing script
-│   ├── credential_stuffer.py
-│   ├── combolist.csv         # 101 test credentials
-│   └── data/                 # Results output
+├── server/                    # Backend (Node.js + Express)
 └── README.md
 ```
 
@@ -77,14 +73,14 @@ Frontend runs at `http://localhost:5173`
 ### 5. Run Attack Simulation
 
 ```bash
-cd attack-simulator
+cd
 pip install -r requirements.txt
-python credential_stuffer.py
+py credential_stuffer.py
 ```
 
 **Results saved to:**
-- `data/attack_results.csv` - Per-request logs (202 requests)
-- `data/attack_metrics.json` - Aggregated statistics
+- `attack_results.csv` - Per-request logs (202 requests)
+- `attack_metrics.json` - Aggregated statistics
 
 ---
 
@@ -131,8 +127,6 @@ All experiments conducted on localhost with synthetic data. No real user credent
 - Ensure backend is running on port 5000
 - Verify `combolist.csv` exists
 
-**No results generated:**
-- Check write permissions in `data/` directory
 
 ---
 
