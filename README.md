@@ -73,7 +73,7 @@ Frontend runs at `http://localhost:5173`
 ### 5. Run Attack Simulation
 
 ```bash
-cd
+cd Research---Eliminating-Credential-Stuffing-Attack-Surfaces
 pip install -r requirements.txt
 py credential_stuffer.py
 ```
