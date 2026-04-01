@@ -75,7 +75,13 @@ Frontend runs at `http://localhost:5173`
 ```bash
 cd Research---Eliminating-Credential-Stuffing-Attack-Surfaces
 pip install -r requirements.txt
-py credential_stuffer.py
+py credential_stuffer.py \
+  --url http://localhost:3000 \
+  --traditional /api/auth/login \
+  --oauth /auth/google \
+  --combolist sample_combolist.csv \
+  --max-requests 100 \
+  --concurrent 10
 ```
 
 **Results saved to:**
